@@ -49,7 +49,9 @@ export const TopNav = () => {
 
           <div className="flex gap-4 items-center">
             <ThemeToggle />
-            <Button className="sm:px-7">Get Started</Button>
+            <a href={process.env.NEXT_PUBLIC_RAMP_SHOP_LINK} target="_blank">
+              <Button className="sm:px-7">Get Started</Button>
+            </a>
           </div>
         </div>
       </div>

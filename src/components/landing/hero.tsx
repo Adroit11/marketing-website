@@ -15,9 +15,11 @@ export const LandingHero = () => {
           </p>
 
           <div className="mb-[52px] md:mb-[102px] flex flex-wrap gap-x-2 gap-y-4 items-center justify-center">
-            <Button className="px-14 py-6 text-base" size={"lg"}>
-              Get Started
-            </Button>
+            <a href={process.env.NEXT_PUBLIC_RAMP_SHOP_LINK} target="_blank">
+              <Button className="px-14 py-6 text-base" size={"lg"}>
+                Get Started
+              </Button>
+            </a>
             {/* <Button className="text-base py-6" variant={"link"} size={"lg"}>
               View Products
             </Button> */}

@@ -25,9 +25,11 @@ export const FAQS = () => {
             </div>
           </div>
 
-          <Button className="px-7" size={"lg"}>
-            Get in Touch
-          </Button>
+          <a href={process.env.NEXT_PUBLIC_RAMP_SHOP_LINK} target="_blank">
+            <Button className="px-7" size={"lg"}>
+              Get in Touch
+            </Button>
+          </a>
         </div>
       </div>
     </section>

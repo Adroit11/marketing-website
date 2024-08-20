@@ -9,7 +9,7 @@ export const HowRampWorks = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-12">
           <div>
-            <a href={process.env.NEXT_PUBLIC_ADMIN_LINK ?? "#"} target="_blank">
+            <a href={process.env.NEXT_PUBLIC_RAMP_SHOP_LINK} target="_blank">
               <Image
                 alt="Set Up Your Store"
                 src={"/how.png"}
@@ -22,7 +22,7 @@ export const HowRampWorks = () => {
             <div className="pt-5">
               <a
                 className="inline-block hover:underline hover:text-primary transition"
-                href={process.env.NEXT_PUBLIC_ADMIN_LINK ?? "#"}
+                href={process.env.NEXT_PUBLIC_RAMP_SHOP_LINK}
                 target="_blank"
               >
                 <h4 className="font-semibold mb-1 lg:text-lg inline-flex gap-2 items-center">
@@ -35,7 +35,7 @@ export const HowRampWorks = () => {
             </div>
           </div>
           <div>
-            <a href={process.env.NEXT_PUBLIC_ADMIN_LINK ?? "#"} target="_blank">
+            <a href={process.env.NEXT_PUBLIC_RAMP_SHOP_LINK} target="_blank">
               <Image
                 alt="Launch And Grow"
                 src={"/how.png"}
@@ -46,10 +46,7 @@ export const HowRampWorks = () => {
             </a>
 
             <div className="pt-5">
-              <a
-                href={process.env.NEXT_PUBLIC_ADMIN_LINK ?? "#"}
-                target="_blank"
-              >
+              <a href={process.env.NEXT_PUBLIC_RAMP_SHOP_LINK} target="_blank">
                 <h4 className="font-semibold mb-1 lg:text-lg inline-flex gap-2 items-center hover:text-primary transition">
                   Launch And Grow <ArrowRight className="h-5" />
                 </h4>
