@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import { ThemeToggle } from "@/providers/theme";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export const TopNav = () => {
   const [position, setPosition] = useState<"top" | "down" | "up">("top");
@@ -45,10 +46,13 @@ export const TopNav = () => {
     >
       <div className="container">
         <div className="flex justify-between items-center py-5">
-          <p className="font-serif font-semibold text-base md:text-lg">RAMP</p>
+          {/* <p className="font-serif font-semibold text-base md:text-lg">RAMP</p> */}
+          <div>
+            <Image alt="RAMP" src={"/logo_brand.png"} width={90} height={80} />
+          </div>
 
           <div className="flex gap-4 items-center">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <a href={process.env.NEXT_PUBLIC_RAMP_SHOP_LINK} target="_blank">
               <Button className="sm:px-7">Get Started</Button>
             </a>
