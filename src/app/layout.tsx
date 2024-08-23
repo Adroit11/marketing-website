@@ -12,8 +12,8 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "RAMP",
-  description: "---",
+  title: "Ramp | New Customers, More Sales",
+  description: "Ramp | New Customers, More Sales",
 };
 
 export default function RootLayout({

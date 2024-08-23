@@ -21,7 +21,7 @@ export const FAQS = () => {
             </div>
             <div className="p-6 border border-slate-100/20 rounded-xl">
               <p className="font-semibold">Phone:</p>
-              <p className="text-primary">02018891783</p>
+              <p className="text-primary">+234 02018891783</p>
             </div>
           </div>
 
