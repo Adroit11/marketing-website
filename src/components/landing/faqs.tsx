@@ -12,16 +12,22 @@ export const FAQS = () => {
             Do you have any questions?
           </h2>
 
-          <div className="mb-16 w-full grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6 max-w-4xl">
-            <div className="p-6 border border-slate-100/20 rounded-xl">
+          <div className="mb-16 w-full flex flex-col md:flex-row md:flex-wrap justify-center gap-x-8 gap-y-6 max-w-4xl">
+            <div className="p-6 border border-slate-100/20 rounded-xl flex-1">
               <p className="font-semibold">Email:</p>
               <a className="text-primary" href="mailto:technology@joinramp.co">
                 technology@joinramp.co
               </a>
             </div>
-            <div className="p-6 border border-slate-100/20 rounded-xl">
+            <div className="p-6 border border-slate-100/20 rounded-xl flex-1">
               <p className="font-semibold">Phone:</p>
               <p className="text-primary">+234 02018891783</p>
+            </div>
+            <div className="p-6 border border-slate-100/20 rounded-xl flex-2 ">
+              <p className="font-semibold">Business Address:</p>
+              <p className="text-primary">
+                17, Fatai Aina Close, Ojodu Estate, Ikeja, Lagos State.
+              </p>
             </div>
           </div>
 

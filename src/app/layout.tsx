@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     siteName: "Ramp",
     images: {
       url: "http://res.cloudinary.com/dc9kfp5gt/image/upload/v1724451002/RampIcon/nk4lnmcd8vhwhet6mvn8.svg",
-      width: 800,
-      height: 600,
+      width: 497,
+      height: 100,
     },
     locale: "en_US",
     type: "website",
