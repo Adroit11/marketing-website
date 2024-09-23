@@ -12,7 +12,7 @@ export const HowRampWorks = () => {
             <a href={process.env.NEXT_PUBLIC_RAMP_SHOP_LINK} target="_blank">
               <Image
                 alt="Set Up Your Store"
-                src={"/how.png"}
+                src={"/create_shop.webp"}
                 width={635}
                 height={418}
                 className="aspect-video rounded-md hover:-translate-y-2 transition duration-300"
@@ -38,7 +38,7 @@ export const HowRampWorks = () => {
             <a href={process.env.NEXT_PUBLIC_RAMP_SHOP_LINK} target="_blank">
               <Image
                 alt="Launch And Grow"
-                src={"/how.png"}
+                src={"/view_shop.webp"}
                 width={635}
                 height={418}
                 className="aspect-video rounded-md hover:-translate-y-2 transition duration-300"
