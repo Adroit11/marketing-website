@@ -26,7 +26,13 @@ export const LandingHero = () => {
           </div>
 
           <div className="w-fit shadow-lg rounded-lg overflow-hidden">
-            <Image src={"/ramp_web.webp"} alt="" width={2800} height={15700} />
+            <Image
+              src={"/shops.webp"}
+              alt=""
+              width={2800}
+              height={15700}
+              className="-mt-1"
+            />
           </div>
         </div>
       </div>
