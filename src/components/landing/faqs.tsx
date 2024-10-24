@@ -26,7 +26,7 @@ export const FAQS = () => {
             <div className="p-6 border border-slate-100/20 rounded-xl flex-2 ">
               <p className="font-semibold">Business Address:</p>
               <p className="text-primary">
-                17, Fatai Aina Close, Ojodu Estate, Ikeja, Lagos State.
+                1 Fatai Aina Close, Ojodu Estate, Ikeja, Lagos State.
               </p>
             </div>
           </div>
